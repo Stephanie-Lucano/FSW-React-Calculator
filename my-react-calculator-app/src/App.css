@@ -1,6 +1,6 @@
 .calculator {
   width: 340px;
-  height: 340px;
+  height: 440px;
   padding: 10px;
   border-radius: 10px;
   background-color: #485461;
@@ -25,7 +25,7 @@
 
 .buttons {
   width: 100%;
-  height: calc(100% - 70px);
+  height: calc(100% - 110px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
