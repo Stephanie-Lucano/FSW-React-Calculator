@@ -11,8 +11,10 @@ function App() {
 
   const updateCalc = (value) => {
     // guard clause
-    if (operators.includes(value) && displayValue==="" ||operators.includes(value) && operators.includes(displayValue.slice(-1))) {
+    if (operators.includes(value) && displayValue === "" ) {
       return
+    } else if (operators.includes(value) && operators.includes(displayValue.slice(-1))) {
+      return 
     }
 
     setDisplayValue(displayValue + value)
